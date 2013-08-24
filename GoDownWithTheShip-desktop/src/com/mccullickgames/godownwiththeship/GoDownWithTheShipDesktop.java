@@ -11,6 +11,6 @@ public class GoDownWithTheShipDesktop {
 		cfg.width = 480;
 		cfg.height = 320;
 		
-		new LwjglApplication(new SinkingShipEscape(), cfg);
+		new LwjglApplication(new GoDownWithTheShip(), cfg);
 	}
 }

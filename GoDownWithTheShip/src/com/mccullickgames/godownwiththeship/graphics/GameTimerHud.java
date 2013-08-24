@@ -1,6 +1,5 @@
-package com.mccullickgames.godownwiththeship.hud;
+package com.mccullickgames.godownwiththeship.graphics;
 
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.Mesh;
 import com.badlogic.gdx.graphics.VertexAttribute;
@@ -28,7 +27,7 @@ public class GameTimerHud {
 	}
 
 	public Mesh createWaterMesh(float currentTime) {
-		float waterColor = Color.toFloatBits(100, 100, 255, 150);
+		float waterColor = GameSettings.WATER_COLOR;
 		float frequency = 0.5f;
 		float amplitude = 5f;
 		float yOffset = GameSettings.GAME_HEIGHT * (1 - currentTime/GameSettings.GAME_TIME);
