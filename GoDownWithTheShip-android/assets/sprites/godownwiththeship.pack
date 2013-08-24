@@ -1,0 +1,33 @@
+
+godownwiththeship.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+stairsNS
+  rotate: false
+  xy: 1, 111
+  size: 345, 530
+  orig: 345, 530
+  offset: 0, 0
+  index: -1
+timerHud
+  rotate: false
+  xy: 348, 1
+  size: 70, 640
+  orig: 70, 640
+  offset: 0, 0
+  index: -1
+hero
+  rotate: false
+  xy: 1, 19
+  size: 155, 90
+  orig: 155, 90
+  offset: 0, 0
+  index: -1
+level01
+  rotate: false
+  xy: 420, 633
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
