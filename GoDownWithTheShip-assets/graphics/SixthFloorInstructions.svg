@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="309.82767"
+   height="116.94605"
+   id="svg5638"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="SixthFloorInstructions.svg"
+   inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\fifthFloorInstructions.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5640" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="298.6995"
+     inkscape:cy="-60.975558"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="998"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5643">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.0930609,14.724924)">
+    <text
+       xml:space="preserve"
+       style="font-size:23.04683113px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Segoe Script;-inkscape-font-specification:Segoe Script Bold"
+       x="3.9965913"
+       y="21.931326"
+       id="text5646"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\firstFloorInstructions.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5648"
+         x="3.9965913"
+         y="21.931326"
+         style="font-size:48px">Sixth Floor</tspan></text>
+    <path
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#555555;stroke-width:0;stroke-miterlimit:4;stroke-opacity:0.59064331;stroke-dasharray:none"
+       id="path5654"
+       d="m 0.0930609,37.401594 c 5.8691238,-1.54733 11.7884371,-3.099119 18.2161911,-4.199836 1.967059,-0.430716 4.169334,-0.583424 6.162507,-0.977116 1.900664,-0.339503 3.936839,-0.518306 5.951215,-0.693831 3.118101,-0.181713 6.235598,-0.37163 9.36951,-0.500732 2.189461,-0.09125 4.387547,-0.122373 6.586367,-0.127357 2.474751,-0.0012 4.949454,0.0073 7.424191,0.0078 2.725329,0.0012 5.450658,0.0017 8.175987,0.0017 3.772541,-0.08182 7.481538,0.186811 11.190201,0.431759 4.48483,0.22447 8.950426,0.5023 13.412111,0.797322 6.71263,0.460176 13.4112,0.957343 20.135859,1.385524 6.48788,0.339151 13.00058,0.603279 19.5264,0.772605 3.7229,0.130433 7.47017,0.042 11.1915,0.156799 2.20737,0.08272 4.40654,0.149994 6.58822,0.31354 1.96294,0.06771 3.84408,0.238806 5.74023,0.453458 2.05295,0.235435 4.08517,0.449955 6.20452,0.547328 3.18602,0.102731 6.38575,0.09926 9.5792,0.109167 5.79,0.05566 11.57442,-0.08266 17.35873,-0.168835 5.6329,-0.156638 11.26811,-0.284537 16.91057,-0.359329 4.25464,-0.04719 8.51099,-0.06016 12.76687,-0.0713 3.0604,0.05612 6.03598,-0.27938 9.02503,-0.498031 3.89645,-0.358603 7.78109,-0.720409 11.70138,-1.031974 3.71674,-0.373237 7.47415,-0.681299 11.1765,-1.079882 3.33681,-0.389105 6.73148,-0.654974 10.15801,-0.858051 5.67741,-0.366346 11.3812,-0.659341 17.08294,-0.951212 5.39461,-0.250017 10.71998,-0.641767 15.92307,-1.291054 3.13943,-0.447581 6.2462,-0.937666 9.40124,-1.365283 1.66821,-0.264531 3.45536,-0.408926 5.03555,-0.768675 1.13218,-0.307289 0.55891,-0.165453 1.71778,-0.426931 -15.07192,3.630025 -8.25584,2.067231 -5.03138,1.110356 3.38337,-1.131611 7.47698,-1.800246 11.14716,-2.755272 0,0 -8.03205,2.71127 -8.03205,2.71127 l 0,0 c -3.45817,0.629806 -0.24043,0.05324 7.843,-1.940209 0.60459,-0.149102 -1.83628,0.36388 -1.38216,0.408107 -4.11355,1.092985 -7.8712,2.393972 -12.51176,3.165621 -2.14679,0.501435 -4.45864,0.808684 -6.7997,1.112459 -3.1254,0.445478 -6.23031,0.917609 -9.37812,1.334515 -5.19179,0.588714 -10.49579,0.924339 -15.83483,1.182533 -5.76053,0.304587 -11.51902,0.621919 -17.2487,1.017425 -3.41041,0.231546 -6.78822,0.518836 -10.12551,0.89685 -3.70933,0.371867 -7.44192,0.706011 -11.16715,1.047536 -3.93872,0.314497 -7.82822,0.712009 -11.75675,1.046038 -3.01535,0.242436 -6.04016,0.509024 -9.13148,0.436577 -4.21381,-0.004 -8.42798,-0.0012 -12.64056,0.04765 -5.62384,0.07085 -11.23903,0.206033 -16.85541,0.344608 -5.82485,0.08517 -11.6482,0.211408 -17.47858,0.185653 -3.26103,0.0012 -6.53503,0.0329 -9.78337,-0.110336 -2.14162,-0.123848 -4.20515,-0.364273 -6.29523,-0.591261 -1.87855,-0.203728 -3.78345,-0.303976 -5.70176,-0.41898 -2.14038,-0.149199 -4.30913,-0.20442 -6.46679,-0.294527 -3.67656,-0.08865 -7.36797,-0.06039 -11.03907,-0.204604 C 111.6389,36.531738 105.15377,36.254179 98.693381,35.900629 91.927313,35.456978 85.1721,34.984091 78.397754,34.562496 73.921409,34.280864 69.440451,34.017548 64.951657,33.774502 61.23657,33.535984 57.519814,33.342022 53.75087,33.426091 c -2.725797,-1.15e-4 -5.451592,-2.3e-4 -8.177386,-0.0023 -2.487055,-0.0017 -4.974275,-3.11e-4 -7.461211,0.01054 -2.160678,0.01688 -4.321818,0.04874 -6.473178,0.139941 -3.116045,0.138488 -6.230779,0.306546 -9.312442,0.545207 -2.009378,0.200029 -4.019797,0.412291 -5.903187,0.777059 -2.012526,0.320927 -4.120481,0.535913 -6.060029,0.940881 -1.4830835,0.26819 -1.7532747,0.306494 -3.2448519,0.622541 -0.6022883,0.127616 -2.3685065,0.542384 -1.7901324,0.396509 13.0617523,-3.294349 7.2353353,-1.774554 4.3037397,-1.024898 0,0 -9.5391315,1.569569 -9.5391315,1.569569 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\firstFloorInstructions.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.04683113px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1.2034818"
+       y="67.875946"
+       id="text5656"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\firstFloorInstructions.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="1.2034818"
+         y="67.875946"
+         id="tspan3010">Achieve the impossible!</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="374.8562"
+   height="145.75459"
+   id="svg5638"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="FirstFloorInstructions.svg">
+  <defs
+     id="defs5640" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="298.6995"
+     inkscape:cy="-32.167015"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="998"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5643">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.0930609,14.724924)">
+    <text
+       xml:space="preserve"
+       style="font-size:23.04683113px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Segoe Script;-inkscape-font-specification:Segoe Script Bold"
+       x="3.9965913"
+       y="21.931326"
+       id="text5646"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\firstFloorInstructions.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5648"
+         x="3.9965913"
+         y="21.931326"
+         style="font-size:48px">First Floor</tspan></text>
+    <path
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#555555;stroke-width:0;stroke-miterlimit:4;stroke-opacity:0.59064331;stroke-dasharray:none"
+       id="path5654"
+       d="M 0.0930609,37.401594 C 5.12979,35.854264 10.20959,34.302475 15.725721,33.201758 c 1.688079,-0.430716 3.578014,-0.583424 5.288503,-0.977116 1.631101,-0.339503 3.378493,-0.518306 5.107178,-0.693831 2.675873,-0.181713 5.351228,-0.37163 8.040669,-0.500732 1.878939,-0.09125 3.765279,-0.122373 5.652249,-0.127357 2.123767,-0.0012 4.247492,0.0073 6.371247,0.0078 2.338806,0.0012 4.677613,0.0017 7.016419,0.0017 3.237496,-0.08182 6.420461,0.186811 9.603139,0.431759 3.848764,0.22447 7.681022,0.5023 11.509924,0.797322 5.760604,0.460176 11.509142,0.957343 17.280069,1.385524 5.567728,0.339151 11.156762,0.603279 16.757052,0.772605 3.19489,0.130433 6.4107,0.042 9.60425,0.156799 1.89431,0.08272 3.78158,0.149994 5.65384,0.31354 1.68454,0.06771 3.29889,0.238806 4.92611,0.453458 1.76179,0.235435 3.50579,0.449955 5.32456,0.547328 2.73416,0.102731 5.48009,0.09926 8.22062,0.109167 4.96883,0.05566 9.93287,-0.08266 14.89681,-0.168835 4.83401,-0.156638 9.67,-0.284537 14.51221,-0.359329 3.65122,-0.04719 7.30391,-0.06016 10.9562,-0.0713 2.62635,0.05612 5.17992,-0.27938 7.74504,-0.498031 3.34383,-0.358603 6.67753,-0.720409 10.04182,-1.031974 3.18961,-0.373237 6.41412,-0.681299 9.59138,-1.079882 2.86357,-0.389105 5.77678,-0.654974 8.71734,-0.858051 4.87221,-0.366346 9.76705,-0.659341 14.66014,-0.951212 4.62951,-0.250017 9.1996,-0.641767 13.66476,-1.291054 2.69418,-0.447581 5.36033,-0.937666 8.0679,-1.365283 1.43161,-0.264531 2.9653,-0.408926 4.32138,-0.768675 0.9716,-0.307289 0.47964,-0.165453 1.47415,-0.426931 -12.93433,3.630025 -7.08495,2.067231 -4.3178,1.110356 2.90352,-1.131611 6.41655,-1.800246 9.5662,-2.755272 0,0 -6.89289,2.71127 -6.89289,2.71127 l 0,0 c -2.96771,0.629806 -0.20633,0.05324 6.73066,-1.940209 0.51884,-0.149102 -1.57585,0.36388 -1.18614,0.408107 -3.53014,1.092985 -6.75486,2.393972 -10.73726,3.165621 -1.84232,0.501435 -3.82629,0.808684 -5.83533,1.112459 -2.68214,0.445478 -5.34669,0.917609 -8.04806,1.334515 -4.45546,0.588714 -9.00721,0.924339 -13.58904,1.182533 -4.94353,0.304587 -9.88532,0.621919 -14.80238,1.017425 -2.92673,0.231546 -5.82547,0.518836 -8.68945,0.89685 -3.18325,0.371867 -6.38646,0.706011 -9.58336,1.047536 -3.3801,0.314497 -6.71797,0.712009 -10.08933,1.046038 -2.5877,0.242436 -5.18351,0.509024 -7.8364,0.436577 -3.61618,-0.004 -7.23267,-0.0012 -10.8478,0.04765 -4.82623,0.07085 -9.64504,0.206033 -14.46487,0.344608 -4.99874,0.08517 -9.99619,0.211408 -14.99967,0.185653 -2.79853,0.0012 -5.60819,0.0329 -8.39583,-0.110336 -1.83788,-0.123848 -3.60875,-0.364273 -5.4024,-0.591261 -1.61212,-0.203728 -3.24686,-0.303976 -4.8931,-0.41898 -1.83682,-0.149199 -3.69799,-0.20442 -5.54963,-0.294527 -3.15513,-0.08865 -6.323,-0.06039 -9.47345,-0.204604 -5.574553,-0.209438 -11.139924,-0.486997 -16.684064,-0.840547 -5.806463,-0.443651 -11.603611,-0.916538 -17.417178,-1.338133 -3.841483,-0.281632 -7.686924,-0.544948 -11.53909,-0.787994 -3.188191,-0.238518 -6.377814,-0.43248 -9.612224,-0.348411 -2.339208,-1.15e-4 -4.678414,-2.3e-4 -7.017619,-0.0023 -2.134326,-0.0017 -4.268793,-3.11e-4 -6.403017,0.01054 -1.854238,0.01688 -3.708872,0.04874 -5.555113,0.139941 -2.674108,0.138488 -5.347092,0.306546 -7.991695,0.545207 -1.724396,0.200029 -3.449685,0.412291 -5.065961,0.777059 -1.727097,0.320927 -3.536089,0.535913 -5.2005587,0.940881 -1.2727439,0.26819 -1.5046149,0.306494 -2.7846476,0.622541 -0.5168681,0.127616 -2.0325906,0.542384 -1.536245,0.396509 11.2092553,-3.294349 6.2091763,-1.774554 3.6933573,-1.024898 0,0 -8.1862341,1.569569 -8.1862341,1.569569 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\firstFloorInstructions.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.04683113px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1.2034818"
+       y="67.875946"
+       id="text5656"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\firstFloorInstructions.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5658"
+         x="1.2034818"
+         y="67.875946">Poor Bob needs your help to escape </tspan><tspan
+         sodipodi:role="line"
+         x="1.2034818"
+         y="96.684486"
+         id="tspan5660">before this floor floods.</tspan><tspan
+         sodipodi:role="line"
+         x="1.2034818"
+         y="125.49303"
+         id="tspan5662">Drag him to the stairs.</tspan></text>
+  </g>
+</svg>

@@ -17,6 +17,7 @@ import com.badlogic.gdx.math.Vector3;
 import com.mccullickgames.godownwiththeship.Assets;
 import com.mccullickgames.godownwiththeship.GameSettings;
 import com.mccullickgames.godownwiththeship.graphics.DeadOutOfTime;
+import com.mccullickgames.godownwiththeship.graphics.DeadShocked;
 import com.mccullickgames.godownwiththeship.graphics.EndOfGame;
 import com.mccullickgames.godownwiththeship.graphics.GameTimerHud;
 import com.mccullickgames.godownwiththeship.graphics.OutOfBounds;
@@ -39,6 +40,7 @@ public class PlayingScreen implements Screen, InputProcessor {
 	private WorldModel world;
 	private GameModel model;
 	private DeadOutOfTime deadTimeAnim;
+	private DeadShocked shockedAnim;
 	private EndOfGame endOfGame;
 	private OutOfBounds boundary;
 	private boolean centeringCamera;
@@ -54,7 +56,6 @@ public class PlayingScreen implements Screen, InputProcessor {
 	private enum GAME_STATE {
 		INSTRUCTIONS, PLAYING, DEAD_WATER, DEAD_ELECTRIC, SUCCESS, GAME_OVER
 	}
-	
 	
 	public PlayingScreen(GameModel model) {
 		this.model = model;
@@ -85,6 +86,7 @@ public class PlayingScreen implements Screen, InputProcessor {
 		speechBubble = Assets.images.get("speechBubble");
 		timerHud = new GameTimerHud();
 		deadTimeAnim = new DeadOutOfTime();
+		shockedAnim = new DeadShocked();
 		endOfGame = new EndOfGame();
 		
 		startLevel();
@@ -92,12 +94,13 @@ public class PlayingScreen implements Screen, InputProcessor {
 	
 	public void startLevel() {
 		instructions = Assets.images.get(GameSettings.levelTitles.get(model.getCurrentLevel()));
-		instructions.setPosition(210, -200);
+		instructions.setPosition(150, -187);
 		touchToStart = Assets.images.get("instructions_touchToStart");
-		touchToStart.setPosition(210,  -320);
+		touchToStart.setPosition(150,  -320);
 		stairs.setPosition(world.exitPoint.x - stairs.getWidth()/2, world.exitPoint.y - stairs.getHeight()/2);
 		world.resetLevel();
 		hero.setPosition(world.heroPosition.x - hero.getWidth()/2, world.heroPosition.y - hero.getHeight()/2);
+		
 		stairsStartingPoint.setPosition(hero.getX() - 15, hero.getY() - stairsStartingPoint.getHeight()  + 5);
 		desiredCameraPosition.set(instructions.getX() + 190, instructions.getY(), 0);
 		centeringCamera = true;
@@ -106,7 +109,7 @@ public class PlayingScreen implements Screen, InputProcessor {
 		boundary.init(world.getBoundaryRectangle());		
 		timerHud.updateWaveOffset();
 		saySomething.clear();
-		hero.setRotation((float) 90);
+		hero.setRotation(0);
 	}	
 
 	@Override
@@ -141,7 +144,7 @@ public class PlayingScreen implements Screen, InputProcessor {
 				speechBubble.draw(batch);
 				font.draw(batch, saySomething.get(0), hero.getX() + 54, hero.getY() + 55);
 			}
-			
+		
 			hero.draw(batch);
 
 			
@@ -160,6 +163,8 @@ public class PlayingScreen implements Screen, InputProcessor {
 			
 		} else if (state == GAME_STATE.GAME_OVER) {
 			endOfGame.render(dt, batch);
+		} else if (state == GAME_STATE.DEAD_ELECTRIC) {
+			shockedAnim.render(dt, batch);
 		}
 	}
 	
@@ -172,7 +177,7 @@ public class PlayingScreen implements Screen, InputProcessor {
 	private void updateGame(float delta) {	
 		if (saySomething.size() > 0) {
 			showSaySomethingTimer += delta;
-			Gdx.app.log("say", showSaySomethingTimer + " " + showSaySomethingDesiredTime);
+			
 			if (showSaySomethingDesiredTime < showSaySomethingTimer) {
 				saySomething.remove(0);
 				if (saySomething.size() > 0) {
@@ -189,12 +194,34 @@ public class PlayingScreen implements Screen, InputProcessor {
 			deadTimeAnim.start();
 
 			return;
+		} else if (world.touchingElectrical && state == GAME_STATE.PLAYING) {
+			Gdx.app.log("PlayingScreen", "shocked!!");
+			model.playerDied();
+			state = GAME_STATE.DEAD_ELECTRIC;
+			shockedAnim.start();
+			
 		}
 		
 		if (world.dragging) {
 			Vector3 touchPoint = new Vector3(Gdx.input.getX(), Gdx.input.getY(), 0.0f);
 			camera.unproject(touchPoint);
-			hero.setPosition(touchPoint.x - hero.getWidth()/2, touchPoint.y - hero.getHeight()/2);			
+			float newX = touchPoint.x - hero.getWidth() / 2;
+			float newY = touchPoint.y - hero.getHeight() / 2;
+			float dx = hero.getX() - newX;
+			float dy = hero.getY() - newY;
+			if (!(dx < 1 && dx > -1 && dy < 1 && dy > -1)) {
+				
+				float degrees = (float) (Math.atan(dy/dx)*180/Math.PI);
+				degrees += 90;
+				if (dx < 0) {
+					degrees -= 180;
+				}
+				hero.setRotation(degrees);
+			}	
+		
+			hero.setPosition(newX, newY);
+			
+			
 		}
 		
 		Vector2 newPosition = world.moveHeroOutOfWalls(hero.getX(), hero.getY(), hero.getBoundingRectangle());
@@ -302,7 +329,9 @@ public class PlayingScreen implements Screen, InputProcessor {
 			}
 		} else if (state == GAME_STATE.DEAD_WATER && deadTimeAnim.isComplete()) {
 			startLevel();
-		} else if (state == GAME_STATE.GAME_OVER && endOfGame.isComplete()) {
+		} else if (state == GAME_STATE.DEAD_ELECTRIC && shockedAnim.isComplete()) {
+			startLevel();
+		}  else if (state == GAME_STATE.GAME_OVER && endOfGame.isComplete()) {
 			model.setCurrentLevel(-1);
 			startNextLevel();
 			

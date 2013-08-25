@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="73.667816"
+   height="640.0097"
+   id="svg4325"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="timerHud.svg"
+   inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\timerHud.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4327">
+    <linearGradient
+       id="linearGradient4843">
+      <stop
+         style="stop-color:#3da29b;stop-opacity:0.20392157;"
+         offset="0"
+         id="stop4845" />
+      <stop
+         style="stop-color:#1734b4;stop-opacity:0;"
+         offset="1"
+         id="stop4847" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4843"
+       id="linearGradient4849"
+       x1="10.928573"
+       y1="695.71936"
+       x2="80.928574"
+       y2="695.71936"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-135.72982"
+     inkscape:cy="345.67566"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="787"
+     inkscape:window-height="703"
+     inkscape:window-x="80"
+     inkscape:window-y="170"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4330">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="background"
+     style="display:inline"
+     transform="translate(-2.470398e-8,0.00966731)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#555555;stroke-width:0;stroke-miterlimit:4;stroke-opacity:0.8;stroke-dasharray:none"
+       id="rect5636"
+       width="67.518082"
+       height="637.51807"
+       x="1.240959"
+       y="1.2409745" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.928573,-375.70965)"
+     style="display:inline">
+    <rect
+       style="fill:url(#linearGradient4849);fill-opacity:1;stroke:#555555;stroke-width:0.45063519;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4333"
+       width="69.549362"
+       height="639.54938"
+       x="11.153891"
+       y="375.94464"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\timerHud.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#434845;stroke-width:5.87366342999999970;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 81.659556,378.64648 c 0,633.12782 0,634.13602 0,634.13602"
+       id="path3770"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path3770.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="NumberHashes"
+     transform="translate(-2.470398e-8,0.00966731)"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="11.616755"
+       y="34.799343"
+       id="text4865"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4867"
+         x="11.616755"
+         y="34.799343">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="20.935936"
+       y="344.35019"
+       id="text5027"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5029"
+         x="20.935936"
+         y="344.35019">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="40.527931"
+       y="323.82224"
+       id="text5055"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5057"
+         x="40.527931"
+         y="323.82224"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">FT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="47.939064"
+       y="15.019073"
+       id="text5055-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5057-2"
+         x="47.939064"
+         y="15.019073"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#999999;fill-opacity:1;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">FT</tspan></text>
+  </g>
+</svg>

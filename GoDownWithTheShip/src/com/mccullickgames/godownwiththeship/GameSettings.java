@@ -15,8 +15,8 @@ public class GameSettings {
 	
 	public static final float GAME_SCALE = 0.5f;//1 meter is one pixel on the level map and is 40 pixels for artwork and is about 80 pixels on screen
 	public static final float GAME_SCALE_LEVELMAP = 40;//1 meter is one pixel on the level map
-	public static final float TILE_SQUARED = GAME_SCALE_LEVELMAP*GAME_SCALE_LEVELMAP;
-	public static final int TOTAL_LEVELS = 1;
+	public static final float TILE_SQUARED = GAME_SCALE_LEVELMAP * GAME_SCALE_LEVELMAP;
+	public static final int TOTAL_LEVELS = 6;
 	public static final int STARTING_LEVEL = 0;
 	
 	public static final Array<String> levelTitles = new Array<String>() {{

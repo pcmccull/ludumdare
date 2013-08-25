@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="78"
+   height="118"
+   id="svg3772"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="stairsNS.svg"
+   inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\stairsNS.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3774" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="-0.33019354"
+     inkscape:cy="51.005829"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer6"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="863"
+     inkscape:window-height="661"
+     inkscape:window-x="10"
+     inkscape:window-y="198"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3777">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="border"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.25,-531)">
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:#555555;stroke-width:2.24402237;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3782"
+       width="75.770882"
+       height="115.75114"
+       x="7.3564863"
+       y="532.12262"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="stair darken"
+     transform="translate(-0.02111527,-5.1131198)">
+    <path
+       sodipodi:type="star"
+       style="fill:#999999;fill-opacity:0.14619883;stroke:#555555;stroke-width:5;stroke-miterlimit:4;stroke-opacity:0.59064331;stroke-dasharray:none"
+       id="path5629"
+       sodipodi:sides="3"
+       sodipodi:cx="-61.871841"
+       sodipodi:cy="8.9057856"
+       sodipodi:r1="14.080128"
+       sodipodi:r2="7.0400639"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -49.678093,15.945849 -12.193748,0 -12.193749,0 6.096874,-10.5600952 6.096875,-10.560096 6.096874,10.5600957 z"
+       inkscape:transform-center-y="-3.3733993"
+       transform="matrix(0.97543531,0,0,0.95834302,98.537826,50.187378)"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:38.67405701px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="12.44163"
+       y="104.70738"
+       id="text5631"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0088782,0.99119993)"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5633"
+         x="12.44163"
+         y="104.70738"
+         style="fill:#999999;fill-opacity:1">UP</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Stairs"
+     transform="translate(-6.25,-531)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23021533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 6.6284174,548.43892 c 75.5726196,0 75.5726196,0 75.5726196,0"
+       id="path4294"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4315"
+       d="m 6.6284174,565.34226 c 75.5726216,0 75.5726216,0 75.5726216,0"
+       style="fill:none;stroke:#000000;stroke-width:0.23021533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23021533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 6.6284174,582.24561 c 75.5726196,0 75.5726196,0 75.5726196,0"
+       id="path4317"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4319"
+       d="m 6.6284174,599.14894 c 75.5726216,0 75.5726216,0 75.5726216,0"
+       style="fill:none;stroke:#000000;stroke-width:0.23021533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23021533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 6.6284174,616.05228 c 75.5726196,0 75.5726196,0 75.5726196,0"
+       id="path4321"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4323"
+       d="m 6.6284174,632.95561 c 75.5726196,0 75.5726196,0 75.5726196,0"
+       style="fill:none;stroke:#000000;stroke-width:0.23021533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\path4323.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

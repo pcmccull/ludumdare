@@ -24,6 +24,7 @@ public class WorldModel {
 	public boolean dragging;
 	private Rectangle boundary;
 	public SpatialIndex<Tile> tiles;
+	public boolean touchingElectrical;
 	public WorldModel() {
 		heroPosition = new Vector2(0, 0);
 		heroStartPosition = new Vector2(0, 0);
@@ -42,6 +43,7 @@ public class WorldModel {
 		dragging = false;		
 		heroPosition.set(heroStartPosition.x, heroStartPosition.y);
 		lastGoodHeroPosition.set(heroStartPosition.x, heroStartPosition.y);
+		touchingElectrical = false; 
 	}
 	
 	private void cleanupLastMap() {
@@ -133,6 +135,9 @@ public class WorldModel {
 			if (wall.hitArea.overlaps(heroRectangle)) {
 				heroPosition.x = lastGoodHeroPosition.x;
 				heroPosition.y = lastGoodHeroPosition.y;
+				if (wall.spriteId.equals(GameSettings.LEVEL_OBJECTS.ELECTRICAL.getTile().spriteId)) {
+					touchingElectrical = true;
+				}
 			} else if (checkLineToRectIntersection(lastGoodHeroPosition.x, lastGoodHeroPosition.y,
 											heroPosition.x, heroPosition.y,
 						wall.hitArea)) {

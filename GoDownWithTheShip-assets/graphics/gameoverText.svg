@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512.82281"
+   height="338.39273"
+   id="svg3114"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="gameoverText.svg"
+   inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\gameoverText.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3116" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="145.67062"
+     inkscape:cy="158.74341"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="998"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3119">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-383.12324,3.2025145)">
+    <text
+       xml:space="preserve"
+       style="font-size:83.42469025px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="376.10669"
+       y="59.488457"
+       id="text5672"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\instructions_touchToStart.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1.0221155,0.97836302)"><tspan
+         sodipodi:role="line"
+         x="376.10669"
+         y="59.488457"
+         style="font-size:50.0548172px;font-style:normal;-inkscape-font-specification:Droid Sans"
+         id="tspan2986" /><tspan
+         sodipodi:role="line"
+         x="376.10669"
+         y="122.05698"
+         style="font-size:50.0548172px;font-style:normal;-inkscape-font-specification:Droid Sans"
+         id="tspan3030">You saved Bob! </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:51.34116364px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="478.15567"
+       y="43.085052"
+       id="text2994"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221155,0.97836302)"><tspan
+         sodipodi:role="line"
+         id="tspan2996"
+         x="478.15567"
+         y="43.085052"
+         style="font-size:63.93399811px;fill:#f9f9f9">Game Over</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:83.42469025px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="374.34479"
+       y="181.75291"
+       id="text5672-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\ludumdare\GoDownWithTheShip-assets\spritesheet_input\instructions_touchToStart.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1.0221155,0.97836302)"><tspan
+         sodipodi:role="line"
+         x="374.34479"
+         y="181.75291"
+         style="font-size:50.0548172px;font-style:normal;-inkscape-font-specification:Droid Sans"
+         id="tspan2992-4">Touch to try again.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:51.34116364px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="377.12927"
+       y="231.62012"
+       id="text3045"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221155,0.97836302)"><tspan
+         sodipodi:role="line"
+         x="377.12927"
+         y="231.62012"
+         id="tspan3051"
+         style="font-size:23.10352516px;fill:#f2f2f2">Develop by Philip McCullick in 48 hours for</tspan><tspan
+         sodipodi:role="line"
+         x="377.12927"
+         y="260.49951"
+         style="font-size:23.10352516px;fill:#f2f2f2"
+         id="tspan3071">Ludum Dare 27.</tspan><tspan
+         sodipodi:role="line"
+         x="377.12927"
+         y="289.37894"
+         style="font-size:23.10352516px;fill:#f2f2f2"
+         id="tspan3059" /><tspan
+         sodipodi:role="line"
+         x="377.12927"
+         y="318.25833"
+         style="font-size:23.10352516px;fill:#f2f2f2"
+         id="tspan3063" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:51.34116364px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="374.83722"
+       y="308.17343"
+       id="text3075"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221155,0.97836302)"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="374.83722"
+         y="308.17343"
+         style="font-size:23.10352516px;fill:#f2f2f2">Thank you to my wife for letting me work on this</tspan><tspan
+         sodipodi:role="line"
+         x="374.83722"
+         y="337.05283"
+         id="tspan3079"
+         style="font-size:23.10352516px;fill:#f2f2f2">game all weekend. :)</tspan></text>
+  </g>
+</svg>

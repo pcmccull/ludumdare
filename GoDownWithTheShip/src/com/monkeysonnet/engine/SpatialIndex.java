@@ -7,6 +7,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Pool;
 
 /**
+ * https://code.google.com/p/spatial-index-for-libgdx/
  * Efficiently store and retrieve items by area occupied within a plane.
  *
  * Zero de-allocation, so safe for games.
