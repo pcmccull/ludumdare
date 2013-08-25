@@ -9,6 +9,7 @@ import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.mccullickgames.godownwiththeship.GameSettings;
+import com.mccullickgames.godownwiththeship.GameSettings.LEVEL_OBJECTS;
 import com.mccullickgames.godownwiththeship.util.TilePool;
 import com.monkeysonnet.engine.SpatialIndex;
 
@@ -63,27 +64,18 @@ public class WorldModel {
 				
 				float worldX = x * GameSettings.GAME_SCALE_LEVELMAP;
 				float worldY = y * GameSettings.GAME_SCALE_LEVELMAP;
-				Tile tile = null; 
+				
 				if (comparisonValue == GameSettings.LEVEL_OBJECTS.HERO.getValue()) {					
 					heroPosition.set(worldX, worldY);
 					heroStartPosition.set(heroPosition.x, heroPosition.y);
 				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.EXIT.getValue()) {
 					exitPoint.set(worldX, worldY);
-				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.WALL_EW.getValue()) {
-					tile = TilePool.get(worldX, worldY, "wallEW", GameSettings.objectHitAreas.get(GameSettings.LEVEL_OBJECTS.WALL_EW));				
-				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.WALL_NS.getValue()) {
-					tile = TilePool.get(worldX, worldY, "wallNS", GameSettings.objectHitAreas.get(GameSettings.LEVEL_OBJECTS.WALL_NS));
-				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.WALL_CORNER_TR.getValue()) {
-					tile = TilePool.get(worldX, worldY, "wallTR", GameSettings.objectHitAreas.get(GameSettings.LEVEL_OBJECTS.WALL_CORNER_TR));
-				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.WALL_CORNER_TL.getValue()) {
-					tile = TilePool.get(worldX, worldY, "wallTL", GameSettings.objectHitAreas.get(GameSettings.LEVEL_OBJECTS.WALL_CORNER_TL));
-				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.WALL_CORNER_BR.getValue()) {
-					tile = TilePool.get(worldX, worldY, "wallBR", GameSettings.objectHitAreas.get(GameSettings.LEVEL_OBJECTS.WALL_CORNER_BR));
-				} else if (comparisonValue == GameSettings.LEVEL_OBJECTS.WALL_CORNER_BL.getValue()) {
-					tile = TilePool.get(worldX, worldY, "wallBL", GameSettings.objectHitAreas.get(GameSettings.LEVEL_OBJECTS.WALL_CORNER_BL));
-				}
-				if (tile != null) {
-					tiles.put(tile, worldX, worldY, tile.sprite.getWidth(), tile.sprite.getHeight());
+				} else {
+					LEVEL_OBJECTS object = findLevelObject(comparisonValue);
+					if (object != null) {
+						Tile tile = TilePool.clone(object.getTile(), worldX, worldY);
+						tiles.put(tile, worldX, worldY, tile.sprite.getWidth(), tile.sprite.getHeight());
+					}					
 				}
 			}
 		}
@@ -91,6 +83,8 @@ public class WorldModel {
 		boundary = new Rectangle(0, 0, levelMap.getWidth() * GameSettings.GAME_SCALE_LEVELMAP, 
 				levelMap.getHeight() * GameSettings.GAME_SCALE_LEVELMAP);
 	}
+	
+	
 
 	public void startDragging() {
 		timeLastStarted = TimeUtils.millis();
@@ -113,24 +107,21 @@ public class WorldModel {
 		return millisecondsLeft;
 	}
 	
-	public Vector2 moveHeroOutOfWalls(Rectangle heroRectangle) {
-		heroPosition.x = heroRectangle.x;
-		heroPosition.y = heroRectangle.y;
+	public Vector2 moveHeroOutOfWalls(float x, float y, Rectangle heroRectangle) {
+		heroPosition.x = x;
+		heroPosition.y = y;
 		
 		if (heroRectangle.x < 0) {
-			heroPosition.x = 0;
+			heroPosition.x = lastGoodHeroPosition.x;
 		} else if (heroRectangle.x > boundary.width - heroRectangle.width) {
-			heroPosition.x = boundary.width - heroRectangle.width;
+			heroPosition.x = lastGoodHeroPosition.x;
 		}
 		
 		if (heroRectangle.y < 0) {
-			heroPosition.y = 0;
+			heroPosition.y = lastGoodHeroPosition.y;
 		}  else if (heroRectangle.y > boundary.height - heroRectangle.height) {
-			heroPosition.y = boundary.height - heroRectangle.height;
-		}
-		
-		
-		
+			heroPosition.y = lastGoodHeroPosition.y;
+		}		
 		
 		int checkArea = 200;
 		Array<Tile> possibleHits = tiles.get(lastGoodHeroPosition.x - checkArea, 
@@ -197,4 +188,19 @@ public class WorldModel {
 		return new Vector3( x * GameSettings.GAME_SCALE_LEVELMAP, y * GameSettings.GAME_SCALE_LEVELMAP, 0);
 	}
 	
+	
+	private LEVEL_OBJECTS findLevelObject(int rgba) {
+		int index = 0;
+		LEVEL_OBJECTS foundObject = null;
+		LEVEL_OBJECTS[] objects = LEVEL_OBJECTS.values();
+		while (foundObject == null && index < objects.length ) {
+			if (objects[index].getValue() == rgba) {
+				foundObject = objects[index];
+			} else {
+				index++;
+			}
+		}
+		return foundObject;
+				
+	}
 }

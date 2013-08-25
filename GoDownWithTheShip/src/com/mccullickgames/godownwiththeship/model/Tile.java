@@ -7,7 +7,7 @@ import com.mccullickgames.godownwiththeship.util.SpritePool;
 
 public class Tile implements Poolable {	
 	public Sprite sprite;
-	private String spriteId;
+	public String spriteId;
 	public float x;
 	public float y;
 	
@@ -19,6 +19,7 @@ public class Tile implements Poolable {
 		this.sprite = SpritePool.get(spriteId);
 		this.x = x;
 		this.y = y;
+		
 		this.hitArea = new Rectangle(hitRectangle);
 		this.hitArea.x += x;
 		this.hitArea.y += y;

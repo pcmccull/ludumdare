@@ -10,20 +10,30 @@ import com.badlogic.gdx.utils.TimeUtils;
 import com.mccullickgames.godownwiththeship.Assets;
 import com.mccullickgames.godownwiththeship.GameSettings;
 
-public class GameTimerHud {
-	private Sprite background;
-	private float waveOffset = 0.4f; // the additional wave that makes it look more like water
+public class DeadOutOfTime {
 
-	public GameTimerHud() {
-		background = Assets.images.get("timerHud");
+	private float waveOffset = 0.4f; // the additional wave that makes it look more like water
+	private long startTime = 0;	
+	private Sprite instructions;
+	public DeadOutOfTime() {
+		instructions = Assets.images.get("instructions_deadTimeRanOut");
+		instructions.setPosition(200, 200);
+	}
+	public void start() {
+		startTime = TimeUtils.millis();
+		updateWaveOffset();
 	}
 
-	public void render(float dt, SpriteBatch batch, float currentTime) {
-		batch.begin();
-		background.draw(batch);
-		batch.end();
-
-		createWaterMesh(currentTime).render(GL10.GL_TRIANGLE_STRIP);
+	public void render(float dt, SpriteBatch batch) {
+		long localDt = TimeUtils.millis() - startTime;
+		
+		createWaterMesh(localDt).render(GL10.GL_TRIANGLE_STRIP);
+	
+		if (localDt > 700) {
+			batch.begin();
+			instructions.draw(batch);
+			batch.end();
+		}
 	}
 	public void updateWaveOffset() {
 		waveOffset = (float) (Math.random() * 0.6) + 0.1f;
@@ -34,9 +44,10 @@ public class GameTimerHud {
 		float waterColor = GameSettings.WATER_COLOR;
 		float frequency = 0.5f;
 		float amplitude = 5f;
-		float yOffset = GameSettings.GAME_HEIGHT * (1 - currentTime/GameSettings.GAME_TIME);
+		float yOffset = (GameSettings.GAME_HEIGHT * 0.9f) * Math.min(1, currentTime / 700);
+		float xOffset = 0;
 		int precision = 30;
-		float width = 140f;
+		float width = GameSettings.GAME_WIDTH*2.5f;
 		float scale = width/precision/2 +.06f;
 		float[] verts = new float[precision * 4 ];
 		float offset = (float) (TimeUtils.millis()/100 % (4 * Math.PI));
@@ -48,12 +59,12 @@ public class GameTimerHud {
 						
 			
 
-			verts[x * 4] = x * scale; // x
+			verts[x * 4] = x * scale + xOffset; // x
 			verts[x * 4 + 1] = y; // y
 			verts[x * 4 + 2] = 0;
 			verts[x * 4 + 3] = waterColor; // color
 
-			verts[x * 4 + 4] = x * scale; // x
+			verts[x * 4 + 4] = x * scale+ xOffset; // x
 			verts[x * 4 + 5] = 0; // y
 			verts[x * 4 + 6] = 0;
 			verts[x * 4 + 7] = waterColor; // color
@@ -65,6 +76,11 @@ public class GameTimerHud {
 
 		mesh.setVertices(verts);
 		return mesh;
+	}
+	public boolean isComplete() {
+		long localDt = TimeUtils.millis() - startTime;
+
+		return localDt > 700;
 	}
 
 }
